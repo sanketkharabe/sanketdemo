@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{    char operator;
+    float a,b,r=0;
+    printf("enter the operator(+,-,*,/):");
+     scanf("%c",&operator);
+     printf("enter numbers");
+     scanf("%f%f",&a,&b);
+     switch(operator){
+     case '+':
+     r=a+b;
+     break;
+     case '-':
+     r=a-b;
+     break;
+     case '*':
+     r=a*b;
+     break;
+     case '/':
+     r=a/b;
+     break;
+    default:
+     printf("you entered invalid");
+
+     }
+     printf("the result of %f %c %f = %f",a,operator,b,r);
+     return 0;
+}
