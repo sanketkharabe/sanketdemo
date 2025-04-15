@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <tr>
+        <h3>Enter student name</h3>
+    <input type="text">
+    </tr>
+    <br>
+    <input type="radio"> </body>tick if you are clear all the sem <br>
+    <input type="checkbox"> <body>tick the box if you are satisfy from the syllbus</body><br>
+ <body>Enter your total fees <input type="text"> </body> <input type="submit"> <body></body><br>
+ <body>Give the rating outof 5</body><input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio">
+</body>
+</html>
